@@ -12,20 +12,21 @@ Record Book is a web application built with React.js that allows users to record
 To run this app locally, you need to have `Node.js` and `npm` installed. Then, follow these steps:
 
 1. Clone the repository:
-  ```bash
-      git clone https://github.com/iammeliaskhan/record-book.git
-  ```
+    ```bash
+        git clone https://github.com/iammeliaskhan/record-book.git
+    ```
 2. Install the dependencies:
     ```bash
         cd record-book
         npm install
     ```
-Usage
+## Usage
 To start the app, run the following command:
 
-bash
-Copy code
+```bash
+unset HOST
 npm start
+```
 The app will open in your default browser at http://localhost:3000.
 
 Features
