@@ -1,4 +1,4 @@
-# Record Book React App
+# Record Book
 Record Book is a web application built with React.js that allows users to record and manage their expenses. It uses Create React App as the starter kit and implements several features such as adding new expenses, viewing expenses in a list as well as in a graphical chart, and deleting expenses.
 
 ## Table of Contents
@@ -9,17 +9,17 @@ Record Book is a web application built with React.js that allows users to record
 - <ins>File Structure</ins>
 
 ## Installation
-To run this app locally, you need to have Node.js and npm installed. Then, follow these steps:
+To run this app locally, you need to have `Node.js` and `npm` installed. Then, follow these steps:
 
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/iammeliaskhan/record-book.git
-Install the dependencies:
-bash
-Copy code
-cd record-book
-npm install
+1. Clone the repository:
+  ```bash
+      git clone https://github.com/iammeliaskhan/record-book.git
+  ```
+2. Install the dependencies:
+    ```bash
+        cd record-book
+        npm install
+    ```
 Usage
 To start the app, run the following command:
 
