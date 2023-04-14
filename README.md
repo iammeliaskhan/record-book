@@ -32,17 +32,13 @@ The app will open in your default browser at http://localhost:3000.
 ## Features
 Record Book has the following features:
 
-- Add new books: Users can add new books to the reading list by filling out a form with book details (title, author, year, and image URL).
+- **Add new expenses:** Users can add new books to the reading list by filling out a form with book details (title, author, year, and image URL).
 
-- View book details: Users can view a list of all the books in the reading list with their details, including the book cover image, title, author, and year of publication.
+- **View expenses:** Users can view a list of all the books in the reading list with their details, including the book cover image, title, author, and year of publication.
 
-- Edit book details: Users can edit the details of an existing book by clicking on the edit button next to the book. They can change the book's title, author, year, and image URL.
+- **Delete expenses:** Users can delete a book from the reading list by clicking on the delete button next to the book. A confirmation dialog will appear before the book is deleted.
 
-- Delete books: Users can delete a book from the reading list by clicking on the delete button next to the book. A confirmation dialog will appear before the book is deleted.
-
-- Search for books: Users can search for a book by title or author using the search bar at the top of the page. The search results will update as the user types.
-
-- Sort books: Users can sort the book list by title or author by clicking on the sort button next to the search bar.
+- **Search for expenses:** Users can search for a book by title or author using the search bar at the top of the page. The search results will update as the user types.
 
 Technologies Used
 Record Book React App was built using the following technologies:
