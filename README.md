@@ -92,8 +92,8 @@ The project file structure is as follows:
 ## Contributing
 Contributions are always welcome! If you want to contribute to this project, please follow these steps:
 
-1.Fork the repository.
-2.Create a new branch for your feature or bug fix.
-3.Make your changes and commit them with descriptive messages.
-4.Push your changes to your forked repository.
-5.Submit a pull request.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive messages.
+4. Push your changes to your forked repository.
+5. Submit a pull request.
