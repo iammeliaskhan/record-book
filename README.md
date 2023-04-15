@@ -1,5 +1,5 @@
 # Record Book
-Record Book is a web application built with React.js that allows users to record and manage their expenses. It uses Create React App as the starter kit and implements several features such as adding new expenses, viewing expenses in a list as well as in a graphical chart, and deleting expenses.
+Record Book is a web application built with React.js that allows users to record and manage their expenses. It uses Create React App as the starter kit and implements several features such as adding new expenses, viewing expense details both in a list and in a graphical chart, deleting expenses, searching for expenses, and sorting expenses.
 
 ## Table of Contents
 - <ins>Installation</ins>
@@ -24,60 +24,71 @@ To run this app locally, you need to have `Node.js` and `npm` installed. Then, f
 To start the app, run the following command:
 
 ```bash
-unset HOST
-npm start
+    unset HOST
+    npm start
 ```
 The app will open in your default browser at http://localhost:3000.
 
 ## Features
 Record Book has the following features:
 
-- **Add new expenses:** Users can add new books to the reading list by filling out a form with book details (title, author, year, and image URL).
+- **Add new expenses:** Users can add new expenses to the record book by filling out a form with expense details (description, amount, date).
 
-- **View expenses:** Users can view a list of all the books in the reading list with their details, including the book cover image, title, author, and year of publication.
+- **View expense details:** Users can view a list of all the expenses in the record book with their details, including the expense description, amount, and date in both a list and in a graphical chart.
 
-- **Delete expenses:** Users can delete a book from the reading list by clicking on the delete button next to the book. A confirmation dialog will appear before the book is deleted.
+- **Delete expenses:** Users can delete an expense from the record book by clicking on the delete button next to the expense. A confirmation dialog will appear before the expense is deleted. [This function is still under development]
 
-- **Search for expenses:** Users can search for a book by title or author using the search bar at the top of the page. The search results will update as the user types.
+- **Search for expenses:** Users can search for an expense by the year using the drop down option at the top of the page. The search results will update as the user types.
 
-Technologies Used
+- **Sort expenses:** Users can sort the expense list by date or amount by clicking on the sort button next to the search bar. [This function is still under development]
+
+## Technologies Used
 Record Book React App was built using the following technologies:
 
-React.js: A JavaScript library for building user interfaces.
-Redux.js: A predictable state container for JavaScript apps.
-Create React App: A tool to set up a modern web app by running one command.
-Bootstrap: A popular CSS framework for building responsive and mobile-first websites.
-Font Awesome: A library of icons and social logos.
+- **React.js:** A JavaScript library for building user interfaces.
+- **Create React App:** A tool to set up a modern web app by running one command.
+
 File Structure
 The project file structure is as follows:
 
-java
-Copy code
-record-book/
-  README.md
-  node_modules/
-  package.json
-  public/
-    index.html
-    favicon.ico
-  src/
-    actions/
-      bookActions.js
-    components/
-      Book.js
-      BookForm.js
-      BookList.js
-      EditBook.js
-      Navbar.js
-      SearchBar.js
-    reducers/
-      bookReducer.js
-    App.css
-    App.js
-    App.test.js
-    index.css
-    index.js
-    logo.svg
+```bash
+    record-book/
+        README.md
+        package.json
+        public/
+            index.html
+            favicon.ico
+        src/
+            components/
+            Chart/
+                Chart.css
+                Chart.js
+                ChartBar.js
+                ChartBar.css
+            Expenses/
+                ExpenseDate.js
+                ExpenseDate.css
+                ExpenseItem.js
+                ExpenseItem.css
+                Expenses.js
+                Expenses.css
+                ExpensesChart.js
+                ExpensesFilter.js
+                ExpensesFilter.css
+                ExpensesList.js
+                ExpensesList.css
+            NewExpense/
+                ExpenseForm.js
+                ExpenseForm.css
+                NewExpense.js
+                NewExpense.css
+            UI/
+                Card.js
+                Card.js
+            App.js
+            index.css
+            index.js
+```
 Contributing
 Contributions are always welcome! If you want to contribute to this project, please follow these steps:
 
