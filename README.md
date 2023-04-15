@@ -89,13 +89,11 @@ The project file structure is as follows:
             index.css
             index.js
 ```
-Contributing
+## Contributing
 Contributions are always welcome! If you want to contribute to this project, please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and commit them with descriptive messages.
-Push your changes to your forked repository.
-Submit a pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file
+1.Fork the repository.
+2.Create a new branch for your feature or bug fix.
+3.Make your changes and commit them with descriptive messages.
+4.Push your changes to your forked repository.
+5.Submit a pull request.
