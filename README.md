@@ -1,7 +1,9 @@
 # Record Book
+
 Record Book is a web application built with React.js that allows users to record and manage their expenses. It uses Create React App as the starter kit and implements several features such as adding new expenses, viewing expense details both in a list and in a graphical chart, deleting expenses, searching for expenses, and sorting expenses.
 
 ## Table of Contents
+
 - <ins>Installation</ins>
 - <ins>Usage</ins>
 - <ins>Features</ins>
@@ -9,27 +11,32 @@ Record Book is a web application built with React.js that allows users to record
 - <ins>File Structure</ins>
 
 ## Installation
+
 To run this app locally, you need to have `Node.js` and `npm` installed. Then, follow these steps:
 
 1. Clone the repository:
-    ```bash
-        git clone https://github.com/iammeliaskhan/record-book.git
-    ```
+   ```bash
+       git clone https://github.com/iammeliaskhan/record-book.git
+   ```
 2. Install the dependencies:
-    ```bash
-        cd record-book
-        npm install
-    ```
+   ```bash
+       cd record-book
+       npm install
+   ```
+
 ## Usage
+
 To start the app, run the following command:
 
 ```bash
     unset HOST
     npm start
 ```
+
 The app will open in your default browser at http://localhost:3000.
 
 ## Features
+
 Record Book has the following features:
 
 - **Add new expenses:** Users can add new expenses to the record book by filling out a form with expense details (description, amount, date).
@@ -43,6 +50,7 @@ Record Book has the following features:
 - **Sort expenses:** Users can sort the expense list by date or amount by clicking on the sort button next to the search bar. [This function is still under development]
 
 ## Technologies Used
+
 Record Book React App was built using the following technologies:
 
 - **React.js:** A JavaScript library for building user interfaces.
@@ -89,7 +97,9 @@ The project file structure is as follows:
             index.css
             index.js
 ```
+
 ## Contributing
+
 Contributions are always welcome! If you want to contribute to this project, please follow these steps:
 
 1. Fork the repository.
