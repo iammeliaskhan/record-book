@@ -56,7 +56,8 @@ Record Book React App was built using the following technologies:
 - **React.js:** A JavaScript library for building user interfaces.
 - **Create React App:** A tool to set up a modern web app by running one command.
 
-File Structure
+## File Structure
+
 The project file structure is as follows:
 
 ```bash
